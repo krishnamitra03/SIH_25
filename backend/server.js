@@ -67,3 +67,17 @@ const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
+
+/* Default Login Accounts
+After running the seed script, you can login with:
+Admin:
+Email: admin@placementportal.com
+Password: admin123
+Student:
+Email: john.doe@student.com
+Password: student123
+PRN: PRN001
+Company:
+Email: hr@techcorp.com
+Password: company123
+*/
